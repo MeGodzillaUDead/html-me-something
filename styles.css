@@ -1,5 +1,6 @@
 body {
 	background-color: #d0d0d0;
+	font-family: sans-serif;
 }
 
 header {
@@ -45,6 +46,7 @@ header ul {
 	width: 25%;
 	border-radius: 4px;
 	padding-right: 1%;
+	margin-bottom: 1%;
 }
 
 div a:link, div a:visited {
