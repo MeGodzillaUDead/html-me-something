@@ -2,6 +2,44 @@ body {
 	background-color: #d0d0d0;
 }
 
+header {
+	background-color: purple;
+	color: #d0d0d0;
+	border-radius: 4px;
+	padding: 1%;
+	width: 80%;
+}
+
+header a:link{
+	color: #d0d0d0;
+}
+
+header a:visited{
+	color: #d0d0d0;
+}
+
+header a:hover{
+	color: #d0d0d0;
+}
+
+header li {
+	float: left;
+	padding: 1em;
+	background-color: purple;
+	color: #d0d0d0;
+	border: 2px solid black;
+	border-radius: 4px;
+	padding: 1%;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 img {
 /*
     border: 1% solid black; 
@@ -30,7 +68,7 @@ img {
 	clear: both;
 	float: right;
 	width: 75%;
-	color: #dddddd;
+	color: #d0d0d0;
 	border-radius: 4px;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -50,11 +88,6 @@ a:visited {
 a:hover {
 	color: blue;
 	text-decoration: underline;
-}
-
-hr {
-	width: 75%;
-	clear: both;
 }
 
 .section {
