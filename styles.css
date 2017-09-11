@@ -71,3 +71,10 @@ section h2 {
 	color: blue;
 	font-size: 0.75em;
 }
+
+q, cite {
+	font-size: 0.75em;
+	padding-left: 5%;
+	padding-right: 5%;
+	display: block;
+}
