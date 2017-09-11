@@ -31,3 +31,7 @@ a:hover {
 	text-decoration: underline;
 	text-decoration-color: purple;
 }
+
+hr {
+	width: 75%;
+}
