@@ -38,7 +38,7 @@ img {
 }
 
 a:link {
-	color: blue;
+	color: purple;
 	text-decoration: none;
 }
 
@@ -63,9 +63,11 @@ hr {
 	padding: 1em;
 }
 
-/*
-div p {
-	margin-right: 5%;
+section h2 {
+	color: #444444;
 }
-*/
 
+.name {
+	color: blue;
+	font-size: 0.75em;
+}
