@@ -3,12 +3,14 @@ body {
 }
 
 img {
+/*
     border: 1% solid black; 
-    border-radius: 4%;  
-    padding: 5%;
+    border-radius: 4%;  */
+    padding: 2.5%;
     width: 90%;
     display: inline-block; 
-    margin: auto;
+    margin-left: 2.5%;
+    margin-right: 5%;
 }
 
 .pix {
@@ -18,12 +20,21 @@ img {
 	background-color: #444444;
 	border-radius: 4%;
 	align-content: center;
+	padding: 1.25% 0% 1.25% 0%;
 	margin-left: 2.5%;
 }
 
 #foot {
-	text-align: right;
-	color: purple;
+	background-color: purple;
+	text-align: center;
+	clear: both;
+	float: right;
+	width: 75%;
+	color: #dddddd;
+	border-radius: 4px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 0.5%;
 }
 
 a:link {
@@ -43,6 +54,7 @@ a:hover {
 
 hr {
 	width: 75%;
+	clear: both;
 }
 
 .section {
@@ -56,3 +68,4 @@ div p {
 	margin-right: 5%;
 }
 */
+
