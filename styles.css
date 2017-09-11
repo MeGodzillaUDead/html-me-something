@@ -38,7 +38,18 @@ header ul {
     padding: 0;
 }
 
+.linkbox {
+	background-color: #444444;
+	color: #d0d0d0;
+	float: left;
+	width: 25%;
+	border-radius: 4px;
+	padding-right: 1%;
+}
 
+div a:link, div a:visited {
+	color: #d0d0d0;
+}
 
 img {
 /*
@@ -65,9 +76,9 @@ img {
 #foot {
 	background-color: purple;
 	text-align: center;
-	clear: both;
+	clear: right;
 	float: right;
-	width: 75%;
+	width: 70%;
 	color: #d0d0d0;
 	border-radius: 4px;
 	margin-top: 2%;
@@ -86,6 +97,16 @@ a:visited {
 }
 
 a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+cite a:link, cite a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+cite a:hover {
 	color: blue;
 	text-decoration: underline;
 }
