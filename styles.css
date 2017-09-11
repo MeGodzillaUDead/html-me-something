@@ -1,14 +1,24 @@
+body {
+	background-color: #d0d0d0;
+}
+
 img {
-    border: 1px solid #ddd; 
-    border-radius: 4px;  
-    padding: 5px; 
-    width: 40%;
+    border: 1% solid black; 
+    border-radius: 4%;  
+    padding: 5%;
+    width: 90%;
     display: inline-block; 
+    margin: auto;
 }
 
 .pix {
-	margin: auto;
-	width: 66.6%;
+	width: 33.3%;
+	float: right;
+	clear: none;
+	background-color: #444444;
+	border-radius: 4%;
+	align-content: center;
+	margin-left: 2.5%;
 }
 
 #foot {
@@ -29,9 +39,20 @@ a:visited {
 a:hover {
 	color: blue;
 	text-decoration: underline;
-	text-decoration-color: purple;
 }
 
 hr {
 	width: 75%;
 }
+
+.section {
+	display: block;
+	clear: both;
+	padding: 1em;
+}
+
+/*
+div p {
+	margin-right: 5%;
+}
+*/
